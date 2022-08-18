@@ -1,4 +1,10 @@
-#mPythonType:0
+'''
+作者：Limpu
+早期项目，代码使用mPython生成，未经整理。
+
+使用'掌控板+'小程序通过蓝牙获取WIFI信息，存取WIFI.txt。
+非常实用（逃
+'''
 from mpython import *
 from mpython_ble.application import BLEUART
 import machine, time, ubinascii
