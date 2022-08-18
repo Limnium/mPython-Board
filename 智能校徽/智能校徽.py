@@ -1,4 +1,7 @@
-#mPythonType:0
+'''
+作者：Limpu
+早期项目，代码使用mPython生成，未经整理，可能无法运行。
+'''
 import _thread, time, math, music, ubinascii, network, machine, audio, urequests, json
 from mpython import *
 from machine import Timer
@@ -171,7 +174,7 @@ def mqtt_callback(topic, msg):
 
 mqtt.set_callback(mqtt_callback)
 
-mqtt.subscribe("Z0yrbCoMg")
+mqtt.subscribe("")
 
 def timer14_tick(_):
     mqtt.ping()
