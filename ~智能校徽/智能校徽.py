@@ -1,6 +1,8 @@
 '''
 作者：Limpu
 早期项目，代码使用mPython生成，未经整理，可能无法运行。
+
+某创客活动、某科创大赛获奖作品（迫真）
 '''
 import _thread, time, math, music, ubinascii, network, machine, audio, urequests, json
 from mpython import *
