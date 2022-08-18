@@ -152,7 +152,6 @@ def get_seni_weather(_url, _location):
 
 my_clock = Clock(oled, 32, 32, 30)
 if button_b.value() == 0:
-    # 删print
     exec(open('wifi.py').read(), globals())
 else:
     oled.fill(0)
