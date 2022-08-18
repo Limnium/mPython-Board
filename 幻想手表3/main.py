@@ -1,4 +1,7 @@
-#mPythonType:0
+'''
+作者：Limpu
+早期项目，代码使用mPython生成，未经整理，可能无法运行。
+'''
 from mpython import *
 import json, urequests, network, ntptime, machine, time, math, audio, ubinascii
 from machine import Timer
